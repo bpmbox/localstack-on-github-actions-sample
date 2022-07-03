@@ -1,5 +1,5 @@
 import * as AWS from "aws-sdk";
-
+//
 export class S3Client {
   s3Client: AWS.S3;
   s3GetObjectParam: AWS.S3.GetObjectRequest;
